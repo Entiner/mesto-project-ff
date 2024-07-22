@@ -1,0 +1,20 @@
+{
+  "name": "mesto-project-ff",
+  "version": "0.0.1",
+  "description": "https://github.com/Entiner/mesto-project-ff.git",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && webpack",
+    "dev": "webpack serve"
+  },
+  "author": "Anatoly Govorovsky",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
